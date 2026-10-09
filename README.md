@@ -4,17 +4,16 @@ Repository ini berisi tugas mata kuliah Pemrograman Berorientasi Objek (PBO) ber
 
 Pada program ini, Bentuk berperan sebagai kelas induk yang menyimpan atribut umum berupa warna. Kelas BujurSangkar dan Lingkaran mewarisi sifat tersebut dan menambahkan perhitungan luasnya masing-masing, sedangkan Silinder mewarisi Lingkaran untuk memanfaatkan perhitungan luas alas dalam menghitung volume. Setiap kelas turunan menimpa (override) method printInfo() sehingga satu perintah yang sama menghasilkan keluaran yang berbeda sesuai jenis objeknya.
 
-Dokumen ini memuat struktur proyek, library yang digunakan, penjelasan kode setiap kelas, cara menjalankan program, serta tangkapan layar hasil eksekusinya.
 
-|👤 Identitas |
-	
-|👤 Nama| Zhylalan Wahyu Ramadhani |
-|🆔 NIM	| F1D02510137 |
-|🏫 Kelas| 3B |
-|📘 Mata Kuliah	|Pemrograman Berorientasi Objek (PBO) |
-|👨‍🏫 Dosen Pengampu|	Rovana Afwani, S.T., M.T. |
+## 👤 Identitas
 
----
+| Data | Keterangan |
+|---|---|
+| 👤 **Nama** | Zhylalan Wahyu Ramadhani |
+| 🆔 **NIM** | F1D02510137 |
+| 🏫 **Kelas** | 3B |
+| 📘 **Mata Kuliah** | Pemrograman Berorientasi Objek (PBO) |
+| 👨‍🏫 **Dosen Pengampu** | Rovana Afwani, S.T., M.T. |
 
 ## Daftar Isi
 
