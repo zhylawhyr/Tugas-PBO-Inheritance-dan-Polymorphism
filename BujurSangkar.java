@@ -25,4 +25,3 @@ public void printInfo(){
     System.out.println("Bujursangkar berwarna: " + getWarna()+ ", luas: " + hitungLuas());
 }
 }
-
