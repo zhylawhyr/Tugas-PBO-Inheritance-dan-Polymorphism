@@ -295,19 +295,16 @@ Atau lewat VS Code: buka `Main.java`, lalu klik **Run** di atas method `main`.
 
 ### Struktur Repository
 
-![Struktur Repository](screenshots/repository.png)
+<img width="1912" height="872" alt="image" src="https://github.com/user-attachments/assets/89fa85ab-6148-4c6a-953a-1638458364fb" />
+
 
 *Gambar 1. Isi repository di GitHub.*
 
 
 
-
-*Gambar 2. Output program saat dijalankan.*
-
-
 !<img width="492" height="162" alt="image" src="https://github.com/user-attachments/assets/1d183412-4003-449a-8323-8b7894414bac" />
 
-
+*Gambar 2. Output program saat dijalankan.*
 **🧮Perhitungan:**
 
 | Objek | Rumus | Hasil |
