@@ -1,12 +1,18 @@
 #🎓Tugas PBO – Inheritance dan Polymorphism
 
-Program Java yang mendemonstrasikan konsep **Inheritance (pewarisan)** dan **Polymorphism** menggunakan kelas `Bentuk`, `BujurSangkar`, `Lingkaran`, dan `Silinder`.
+Repository ini berisi tugas mata kuliah Pemrograman Berorientasi Objek (PBO) berupa program Java yang mendemonstrasikan dua konsep utama OOP, yaitu Inheritance (pewarisan) dan Polymorphism. Konsep tersebut diterapkan pada kelas Bentuk, BujurSangkar, Lingkaran, dan Silinder.
 
-> 👤**Nama** : [Zhylalan Wahyu Ramadhani]
-> 🆔**NIM** : [F1D02510137]
-> 🏫**Kelas** : [3B]
-> 📘**Mata Kuliah** : Pemrograman Berorientasi Objek (PBO)
-> 👨‍🏫**Dosen Pengampu** : [Rovana Afwani, S.T., M.T.]
+Pada program ini, Bentuk berperan sebagai kelas induk yang menyimpan atribut umum berupa warna. Kelas BujurSangkar dan Lingkaran mewarisi sifat tersebut dan menambahkan perhitungan luasnya masing-masing, sedangkan Silinder mewarisi Lingkaran untuk memanfaatkan perhitungan luas alas dalam menghitung volume. Setiap kelas turunan menimpa (override) method printInfo() sehingga satu perintah yang sama menghasilkan keluaran yang berbeda sesuai jenis objeknya.
+
+Dokumen ini memuat struktur proyek, library yang digunakan, penjelasan kode setiap kelas, cara menjalankan program, serta tangkapan layar hasil eksekusinya.
+
+|👤 Identitas |
+	
+|👤 Nama| Zhylalan Wahyu Ramadhani |
+|🆔 NIM	| F1D02510137 |
+|🏫 Kelas| 3B |
+|📘 Mata Kuliah	|Pemrograman Berorientasi Objek (PBO) |
+|👨‍🏫 Dosen Pengampu|	Rovana Afwani, S.T., M.T. |
 
 ---
 
@@ -294,23 +300,14 @@ Atau lewat VS Code: buka `Main.java`, lalu klik **Run** di atas method `main`.
 
 *Gambar 1. Isi repository di GitHub.*
 
-### Output Program
 
-!<img width="492" height="162" alt="image" src="https://github.com/user-attachments/assets/1d183412-4003-449a-8323-8b7894414bac" />
 
 
 *Gambar 2. Output program saat dijalankan.*
 
-Teks output yang dihasilkan:
 
-```
-=========================
- Informasi Macam Bentuk 
-=========================
-Bujursangkar berwarna: merah, luas: 25.0
-Lingkaran berwarna: biru, luas: 615.44
-Silinder berwarna: kuning, volume: 51696.96000000001
-```
+!<img width="492" height="162" alt="image" src="https://github.com/user-attachments/assets/1d183412-4003-449a-8323-8b7894414bac" />
+
 
 **🧮Perhitungan:**
 
