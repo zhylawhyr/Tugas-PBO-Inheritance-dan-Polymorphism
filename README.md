@@ -1,4 +1,4 @@
-#🎓Tugas PBO – Inheritance dan Polymorphism
+# 🎓Tugas PBO – Inheritance dan Polymorphism
 
 Repository ini berisi tugas mata kuliah Pemrograman Berorientasi Objek (PBO) berupa program Java yang mendemonstrasikan dua konsep utama OOP, yaitu Inheritance (pewarisan) dan Polymorphism. Konsep tersebut diterapkan pada kelas Bentuk, BujurSangkar, Lingkaran, dan Silinder.
 
@@ -27,7 +27,7 @@ Pada program ini, Bentuk berperan sebagai kelas induk yang menyimpan atribut umu
 
 ---
 
-##📖 1. Deskripsi Program
+## 📖 1. Deskripsi Program
 
 Program ini dibuat untuk memperlihatkan bagaimana **pewarisan (inheritance)** dan **polimorfisme (polymorphism)** bekerja dalam pemrograman berorientasi objek menggunakan bahasa Java. Studi kasusnya adalah perhitungan sederhana pada bangun datar dan bangun ruang: luas bujur sangkar, luas lingkaran, dan volume silinder.
 
@@ -54,7 +54,7 @@ Program ini dibuat untuk memperlihatkan bagaimana **pewarisan (inheritance)** da
 
 ---
 
-##📁 2. Struktur Proyek
+## 📁 2. Struktur Proyek
 
 ```
 .
@@ -80,7 +80,7 @@ Bentuk
 
 ---
 
-##📚 3. Library yang Digunakan
+## 📚 3. Library yang Digunakan
 
 Program ini **tidak meng-import library apa pun** dan **tidak ada penambahan library baru**. Semua yang dipakai berasal dari paket bawaan `java.lang`, yang otomatis tersedia tanpa perintah `import`.
 
@@ -91,9 +91,9 @@ Program ini **tidak meng-import library apa pun** dan **tidak ada penambahan lib
 
 ---
 
-##💻 4. Penjelasan Kode
+## 💻 4. Penjelasan Kode
 
-###🔷 4.1 `Bentuk.java` (Kelas Induk)
+### 🔷 4.1 `Bentuk.java` (Kelas Induk)
 
 ```java
 public class Bentuk {
@@ -123,7 +123,7 @@ public class Bentuk {
 
 ---
 
-###🟩 4.2 `BujurSangkar.java`
+### 🟩 4.2 `BujurSangkar.java`
 
 ```java
 public class BujurSangkar extends Bentuk {
@@ -155,7 +155,7 @@ public class BujurSangkar extends Bentuk {
 }
 ```
 
-**📝Penjelasan:**
+** 📝Penjelasan:**
 - `extends Bentuk` membuat kelas ini mewarisi `warna` beserta getter dan setter-nya.
 - `super(warna)` memanggil constructor `Bentuk` untuk mengisi atribut warna, lalu `this.sisi = sisi` mengisi atribut milik kelas ini sendiri.
 - `hitungLuas()` menghitung luas dengan rumus **sisi × sisi**.
@@ -163,7 +163,7 @@ public class BujurSangkar extends Bentuk {
 
 ---
 
-###🔵 4.3 `Lingkaran.java`
+### 🔵 4.3 `Lingkaran.java`
 
 ```java
 public class Lingkaran extends Bentuk {
@@ -201,7 +201,7 @@ public class Lingkaran extends Bentuk {
 
 ---
 
-###🥫 4.4 `Silinder.java`
+### 🥫 4.4 `Silinder.java`
 
 ```java
 public class Silinder extends Lingkaran {
@@ -232,7 +232,7 @@ public class Silinder extends Lingkaran {
 }
 ```
 
-**📝Penjelasan:**
+** 📝Penjelasan:**
 - Silinder diturunkan dari `Lingkaran` karena alasnya berbentuk lingkaran, sehingga `hitungLuas()` dan `radius` bisa dipakai ulang.
 - Ini contoh **pewarisan bertingkat**: `Silinder → Lingkaran → Bentuk`.
 - `super(radius, warna)` meneruskan data ke constructor `Lingkaran`, yang kemudian meneruskan `warna` ke `Bentuk`.
@@ -241,7 +241,7 @@ public class Silinder extends Lingkaran {
 
 ---
 
-###🚀 4.5 `Main.java`
+### 🚀 4.5 `Main.java`
 
 ```java
 public class Main {
@@ -264,14 +264,14 @@ public class Main {
 }
 ```
 
-**📝Penjelasan:**
+** 📝Penjelasan:**
 - Array `Bentuk[]` berisi tiga objek berbeda: `BujurSangkar`, `Lingkaran`, dan `Silinder`. Hal ini boleh dilakukan karena ketiganya adalah turunan `Bentuk`.
 - Perulangan `for` memanggil `b.printInfo()` pada setiap elemen. Java menentukan versi `printInfo()` yang dijalankan berdasarkan **jenis objek sebenarnya**, bukan tipe variabelnya. Inilah **polymorphism**.
 - Data objek: bujur sangkar sisi 5 (merah), lingkaran jari-jari 14 (biru), dan silinder tinggi 21 dengan jari-jari 28 (kuning).
 
 ---
 
-##▶️ 5. Cara Menjalankan
+## ▶️ 5. Cara Menjalankan
 
 **Prasyarat:** JDK sudah terpasang (cek dengan `java -version`).
 
@@ -291,7 +291,7 @@ Atau lewat VS Code: buka `Main.java`, lalu klik **Run** di atas method `main`.
 
 ---
 
-##📸 6. Hasil Program (Screenshot)
+## 📸 6. Hasil Program (Screenshot)
 
 ### Struktur Repository
 
@@ -305,7 +305,10 @@ Atau lewat VS Code: buka `Main.java`, lalu klik **Run** di atas method `main`.
 !<img width="492" height="162" alt="image" src="https://github.com/user-attachments/assets/1d183412-4003-449a-8323-8b7894414bac" />
 
 *Gambar 2. Output program saat dijalankan.*
-**🧮Perhitungan:**
+
+
+
+** 🧮Perhitungan:**
 
 | Objek | Rumus | Hasil |
 |---|---|---|
@@ -317,7 +320,7 @@ Atau lewat VS Code: buka `Main.java`, lalu klik **Run** di atas method `main`.
 
 ---
 
-##✅ 7. Kesimpulan
+## ✅ 7. Kesimpulan
 
 - **Inheritance** membuat kelas turunan memakai ulang atribut dan method induknya, sehingga `warna` cukup ditulis sekali di `Bentuk`.
 - **Method overriding** memungkinkan tiap kelas punya versi `printInfo()` sendiri.
