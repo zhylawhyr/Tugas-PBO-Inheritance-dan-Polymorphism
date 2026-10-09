@@ -24,5 +24,4 @@ public void printInfo(){
     System.out.println("Silinder berwarna: " + getWarna()+ ", volume: " + hitungVolume());
 }
 } 
-    
 

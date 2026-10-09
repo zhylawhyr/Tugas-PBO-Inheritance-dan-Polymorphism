@@ -22,6 +22,4 @@ public double hitungLuas(){
 public void printInfo(){
     System.out.println("Lingkaran berwarna: " + getWarna()+ ", luas: " + hitungLuas());
 }
-} 
-    
-
+}   

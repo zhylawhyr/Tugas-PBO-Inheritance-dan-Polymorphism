@@ -15,10 +15,3 @@ public void printInfo(){
     System.out.println("Bentuk berwarna: " + warna);
 }
 }
-
-
-
-
-
-
-
